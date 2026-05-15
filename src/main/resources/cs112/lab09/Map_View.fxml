@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="465.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs112.lab09.controllers.MapController">
+   <children>
+      <ImageView fitHeight="472.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Red-Summer.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="SanFranciscoCaliforniaButton" layoutX="55.0" layoutY="166.0" mnemonicParsing="false" onAction="#onSanFranciscoCaliforniaButtonClick" text="San Francisco,&#10;California" />
+      <Button fx:id="BisbeeArizonaButton" layoutX="55.0" layoutY="302.0" mnemonicParsing="false" onAction="#onBisbeeArizonaButtonClick" text="Bisbee,&#10;Arizona" />
+   </children>
+</Pane>
